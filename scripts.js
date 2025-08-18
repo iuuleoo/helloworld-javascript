@@ -1,12 +1,6 @@
-// Declara uma variável sem valor.
-var user
+var product = "Teclado Mecânico";
+var Product = "Mouse Gamer";
+var product = "Fone sem fio"
 
-console.log(user)
-
-// Declara uma variável com valor.
-var email = "leo@email.com"
-console.log(email)
-
-// Substitui o valor da variável.
-email = "leoo@email.com"
-console.log(email)
+console.log(product);
+console.log(Product);
