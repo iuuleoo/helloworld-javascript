@@ -1,6 +1,10 @@
-var product = "Teclado Mecânico";
-var Product = "Mouse Gamer";
-var product = "Fone sem fio"
+// Declara uma  variável sem valor.
+let user
+console.log("Leo")
 
-console.log(product);
-console.log(Product);
+// Declara uma variável com valor.
+let email ="leo@email.com"
+console.log(email)
+
+email = "leoo@email.com"
+console.log(email)
