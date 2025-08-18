@@ -1,3 +1,12 @@
-// O console.log exibe no console um texto.
-console.log("Hello, World!")
-console.log("Essa mensagem é do JS conectado com o HTML")
+// Declara uma variável sem valor.
+var user
+
+console.log(user)
+
+// Declara uma variável com valor.
+var email = "leo@email.com"
+console.log(email)
+
+// Substitui o valor da variável.
+email = "leoo@email.com"
+console.log(email)
