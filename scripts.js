@@ -1,22 +1,12 @@
-let value
+let email = true
+let password = false
 
-// Operador atribuição
-value = 1
-console.log(value)
 
-// Incremento
-value += 2
-console.log(value)
+// AND (E) &&
+console.log(email && password)
 
-// Decremento
-value -= 2
-console.log(value)
+// OR (OU) ||
+console.log(email || password)
 
-// Multiplicar
-value *= 3
-console.log(value)
-
-// Divisão
-value /= 2
-console.log(value)
-
+// NOT (negação)
+console.log(!password)
