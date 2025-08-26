@@ -1,8 +1,14 @@
-let total1 = 2 + 3 * 4
-console.log(total1)
+let one = 1
+let two = 2
 
-let total2 = (2 + 3) * 4
-console.log(total2)
+// == igual a
+console.log("### IGUAL A ###")
+console.log(one == two)
+console.log(one == 1)
+console.log(one == "1")
 
-let average = (9.5 + 7 + 5) / 3
-console.log(average)    
+// != diferente de 
+console.log("### DIFERENTE DE ###")
+console.log(one != two)
+console.log(one != 1)
+console.log(one != "1")
