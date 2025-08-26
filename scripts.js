@@ -1,13 +1,16 @@
-let one= 1
-let two= 2
+let balance = 500
+let payment = 120
 
-// === estritamente igual a (tipo e valor)
-console.log(one === 1)
-console.log(one === "1")
+// > Maior que
+console.log(balance > payment)
 
+// < Menor que
+console.log(balance < payment)
 
-// !== estritamente diferente de
-console.log(one !== two)
-console.log(one !== 1)
-console.log(two !== 2)
-console.log(two !== "2")
+// >= Maior ou igual a
+balance = 120
+console.log(balance >= payment)
+
+// <= Menor ou igual a
+balance = 500
+console.log(balance <= payment)
