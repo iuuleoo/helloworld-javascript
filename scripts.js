@@ -1,17 +1,25 @@
-let option = 1
+/*try {
+// Tenta executar algo.
+console.log(result)
+} catch(error) {
+// Captura o erro para tratar
 
+//console.log("Não foi possivel executar seu pedido. Tente novamente mais tarde!")
 
-switch (option){
-    case 1:
-        console.log("Consultar pedido")
-        console.log("Aguarde...")
-        break
-    case 2:
-    console.log("Falar com atendente")
-        break
-    case 3:
-        console.log("Cancelar pedido")
-        break
-    default:
-        console.log("Opção inválida!")
+console.log(error)
+} finally {
+    console.log("Fim")
+}
+*/
+
+let result = 0
+
+try {
+  if(result === 0){
+    throw new Error("O valor é igual a zero.")
+  } 
+} catch (error) {
+  console.log(error)
+} finally {
+    console.log("Fim")
 }
