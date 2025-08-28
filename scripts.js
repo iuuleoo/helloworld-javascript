@@ -1,12 +1,8 @@
-let email = true
-let password = false
+// IF (SE)
 
+let hour = 11
 
-// AND (E) &&
-console.log(email && password)
-
-// OR (OU) ||
-console.log(email || password)
-
-// NOT (negação)
-console.log(!password)
+if (hour <= 12){
+   console.log("Bom dia!")
+   console.log("Seja bem vindo!")
+}
