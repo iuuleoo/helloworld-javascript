@@ -1,8 +1,9 @@
-// IF (SE)
+// IF ELSE
 
-let hour = 11
+let age = 17
 
-if (hour <= 12){
-   console.log("Bom dia!")
-   console.log("Seja bem vindo!")
+if (age < 18){
+     console.log("Você não pode dirigir")
+} else {
+    console.log("Você pode dirigir")
 }
