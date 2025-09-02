@@ -1,23 +1,11 @@
-function message(username) {
-  console.log("Olá", username)
+function sum(a,b){
+  let result = a + b
   
+
+  return result
 }
 
-message("Oi")
-message("Eai")
+let response = sum(7,7)
+console.log(response)
 
-function sum(a, b) {
-  console.log(a + b)
-}
-
-sum(10,20)
-sum(7,3)
-
-function joinText(text1, text, text2){
-  console.log(text1, text2, text3)
-}
-
-joinText("Oi", "eai", "Tudo bem")
-joinText("eai", "Oi", "Tudo bem")
-
-joinText("Oi", "eai", "")
+console.log(sum(5,6))
