@@ -1,11 +1,15 @@
-function sum(a,b){
-  let result = a + b
-  
+showMessage("Olá, Leo!")
 
-  return result
+
+function showMessage(message){
+  console.log(message)
+  endLine()
+
+  function endLine(){
+    console.log("------------")
+  }
 }
 
-let response = sum(7,7)
-console.log(response)
 
-console.log(sum(5,6))
+showMessage("Tudo bem?")
+
