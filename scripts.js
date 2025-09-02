@@ -1,16 +1,12 @@
-/**
- * Authenticates the user
- * 
- * @param {*} email user email
- * @param {*} password more than 6 characters
- * @returns {Number} user id.
- */
-
-function signIn(email, password) {
-  // Fluxo de autenticação do usuário.
-
-  return 7
+const showMessage1 = function(){
+   return "Olá"
 }
 
-signIn("rodrigo@email.com", "12345678")
+console.log(showMessage())
 
+
+const showMessage2 = function(name){
+   return "Olá," + name
+}
+
+console.log(showMessage2("Leo"))
