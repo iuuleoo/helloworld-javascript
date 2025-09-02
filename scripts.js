@@ -1,15 +1,16 @@
-showMessage("Olá, Leo!")
+/**
+ * Authenticates the user
+ * 
+ * @param {*} email user email
+ * @param {*} password more than 6 characters
+ * @returns {Number} user id.
+ */
 
+function signIn(email, password) {
+  // Fluxo de autenticação do usuário.
 
-function showMessage(message){
-  console.log(message)
-  endLine()
-
-  function endLine(){
-    console.log("------------")
-  }
+  return 7
 }
 
-
-showMessage("Tudo bem?")
+signIn("rodrigo@email.com", "12345678")
 
